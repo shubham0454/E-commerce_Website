@@ -76,6 +76,7 @@ button {
 .home {
   position: relative;
   color: white;
+  background: #37B234;
 }
 
 .home .left {
@@ -110,17 +111,6 @@ button {
   cursor: pointer;
 }
 
-.home::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  background-image: url('../image/slide.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 120vh;
-  width: 100%;
-  z-index: -1;
-}
 .home h2 {
   font-size: 50px;
   margin: 20px 0 20px 0;
